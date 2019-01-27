@@ -1,9 +1,9 @@
 // Testbench
 module test;
 
-  wire a;
-  wire b;
-  wire c;
+  reg a;
+  reg b;
+  reg c;
   wire y;
   
   // Instantiate design under test
@@ -21,9 +21,9 @@ module test;
     display;
     
     $display("abc = 111");
-    a = 0;
-    b = 0;
-    c = 0;
+    a = 1;
+    b = 1;
+    c = 1;
     display;
   end
   
